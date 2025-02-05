@@ -8,7 +8,7 @@
 ## WIP
 
 - [ ] Adopt Swift 6 language mode
-- [ ] Use array value types using Swift 6.1
+- [ ] Use stack-based array value types from Swift 6.1
 
 ## TODO
 
@@ -20,12 +20,17 @@
 - [ ] Install script
 - [ ] Evolution repository
 - [ ] SwiftLang/SwiftPM patch to enable a central directory for dependencies and their build outputs (more research required)
-- [ ] SwiftPM patch to enable dynamic linking on Linux (see [pitch](https://forums.swift.org/t//77605))
+- [ ] SwiftPM patch to enable dynamic linking on Linux (see [pitch](https://forums.swift.org/t/77605))
 - [ ] Swift sourcekit-lsp patch utilizing Protocol Buffers (and support a rolling release?)
 - [ ] Application/System Permission library
 - [ ] Advanced System Search (similar to Spotlight on macOS)
 - [ ] VS Code extensions for easier IoT, robotics, embedded workflows
 - [ ] App Store
+- [ ] Widgets
+- [ ] Keyboard shortcuts
 - [ ] User-friendly UI
 - [ ] Production-only dependencies (for optimal disk usage)
 - [ ] Cloud storage
+- [ ] Continuity with other systems
+- [ ] Machine Learning security protections
+- [ ] Machine Learning features ("AI" / LLM)
