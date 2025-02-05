@@ -12,6 +12,7 @@
 
 ## TODO
 
+- [ ] Determine project and OS name
 - [ ] Determine File System
 - [ ] Determine Kernel
 - [ ] Patch Kernel to support more architectures
