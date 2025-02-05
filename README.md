@@ -28,3 +28,4 @@
 - [ ] App Store
 - [ ] User-friendly UI
 - [ ] Production-only dependencies (for optimal disk usage)
+- [ ] Cloud storage
