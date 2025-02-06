@@ -8,13 +8,13 @@
 ## WIP
 
 - [ ] Adopt Swift 6 language mode
-- [ ] Use stack-based array value types from Swift 6.1
-
-## TODO
-
+- [ ] Use stack-based array value types from Swift when available
 - [ ] Determine project and OS name
 - [ ] Determine File System
 - [ ] Determine Kernel
+
+## TODO
+
 - [ ] Patch Kernel to support more architectures
 - [ ] Patch Kernel to support native Swift code
 - [ ] Install script
@@ -27,10 +27,14 @@
 - [ ] VS Code extensions for easier IoT, robotics, embedded workflows
 - [ ] App Store
 - [ ] Widgets
+- [ ] Secure payment system
 - [ ] Keyboard shortcuts
 - [ ] User-friendly UI
 - [ ] Production-only dependencies (for optimal disk usage)
 - [ ] Cloud storage
-- [ ] Continuity with other systems
+- [ ] Continuity with other systems (sync user calendars, contacts, messages, etc)
+- [ ] Allow/enable multi-versioning of installed programs
+- [ ] Optimize Swift toolchain(s)
+- [ ] Decentralized/non-favored services
 - [ ] Machine Learning security protections
 - [ ] Machine Learning features ("AI" / LLM)
