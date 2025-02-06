@@ -13,6 +13,7 @@
 - [ ] Determine File System
 - [ ] Determine Kernel
 - [ ] Application/System Permission library (see [permissions](https://github.com/schwiftyos/schwifty-permissions))
+- [ ] SwiftPM patch to enable dynamic linking on Linux (see [pitch](https://forums.swift.org/t/77605))
 
 ## TODO
 
@@ -21,7 +22,6 @@
 - [ ] Install script
 - [ ] Evolution repository
 - [ ] SwiftLang/SwiftPM patch to enable a central directory for dependencies and their build outputs (more research required)
-- [ ] SwiftPM patch to enable dynamic linking on Linux (see [pitch](https://forums.swift.org/t/77605))
 - [ ] Utilize Protocol Buffers for better performance
   - [ ] Swift sourcekit-lsp patch (and support a rolling release?)
 - [ ] Advanced System Search (similar to Spotlight on macOS)
