@@ -12,7 +12,7 @@
 - [ ] Determine project and OS name
 - [ ] Determine File System
 - [ ] Determine Kernel
-- [ ] Application/System Permission library (see [permissions](https://github.com/schwiftyos/schwifty-permissions)
+- [ ] Application/System Permission library (see [permissions](https://github.com/schwiftyos/schwifty-permissions))
 
 ## TODO
 
