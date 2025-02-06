@@ -12,6 +12,7 @@
 - [ ] Determine project and OS name
 - [ ] Determine File System
 - [ ] Determine Kernel
+- [ ] Application/System Permission library (see [permissions](https://github.com/schwiftyos/schwifty-permissions)
 
 ## TODO
 
@@ -23,7 +24,6 @@
 - [ ] SwiftPM patch to enable dynamic linking on Linux (see [pitch](https://forums.swift.org/t/77605))
 - [ ] Utilize Protocol Buffers for better performance
   - [ ] Swift sourcekit-lsp patch (and support a rolling release?)
-- [ ] Application/System Permission library
 - [ ] Advanced System Search (similar to Spotlight on macOS)
 - [ ] VS Code extensions for easier IoT, robotics, embedded workflows
 - [ ] App Store
