@@ -21,7 +21,8 @@
 - [ ] Evolution repository
 - [ ] SwiftLang/SwiftPM patch to enable a central directory for dependencies and their build outputs (more research required)
 - [ ] SwiftPM patch to enable dynamic linking on Linux (see [pitch](https://forums.swift.org/t/77605))
-- [ ] Swift sourcekit-lsp patch utilizing Protocol Buffers (and support a rolling release?)
+- [ ] Utilize Protocol Buffers for better performance
+  - [ ] Swift sourcekit-lsp patch (and support a rolling release?)
 - [ ] Application/System Permission library
 - [ ] Advanced System Search (similar to Spotlight on macOS)
 - [ ] VS Code extensions for easier IoT, robotics, embedded workflows
