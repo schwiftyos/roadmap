@@ -34,7 +34,7 @@
 - [ ] Utilize Protocol Buffers
   - [ ] Patch [sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) (and support a rolling release?)
 - [ ] Optimize Swift toolchain(s)
-- [ ] Production-only dependencies (super minified, and stripped, binary size only suitable for production)
+- [ ] Production-only dependencies (super minified, and stripped, binary size only suitable for production use)
 - [ ] Use stack-based array value types from Swift 6.1+ when available
      
 ### Community
