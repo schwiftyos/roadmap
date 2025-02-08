@@ -14,7 +14,7 @@
 - [ ] Application/System Permission library (see [permissions](https://github.com/schwiftyos/schwifty-permissions))
 - [ ] SwiftPM patch to enable dynamic linking on Linux (see [pitch](https://forums.swift.org/t/77605))
 - [ ] Better tooling for easier IoT, robotics, embedded workflows
-  - [ ] See [Swift Consolidate Plugin](https://github.com/RandomHashTags/swift-consolidate-plugin)
+  - [ ] See [Swift Consolidate Plugin](https://github.com/schwiftyos/swift-consolidate-plugin)
   - [ ] VS Code extensions?
 
 ## TODO
