@@ -28,9 +28,25 @@
 ### Optimizations
 
 - [ ] Enable a central directory for dependencies and their build outputs (more research required)
-  - [ ] SwiftLang patch
+  - [ ] [SwiftLang](https://github.com/swiftlang/swift) patch
+    - <details>
+      <summary>Files of interest</summary>
+
+      - https://github.com/swiftlang/swift/blob/main/utils/build_swift/build_swift/constants.py
+    </details> 
   - [ ] [SwiftPM](https://github.com/swiftlang/swift-package-manager) patch
+    - <details>
+      <summary>Files of interest</summary>
+
+      - https://github.com/swiftlang/swift-package-manager/blob/main/Sources/Workspace/Workspace%2BConfiguration.swift
+      - https://github.com/swiftlang/swift-package-manager/blob/main/Sources/_InternalTestSupport/SwiftPMProduct.swift
+      </details>
   - [ ] [Swiftly](https://github.com/swiftlang/swiftly) patch
+    - <details>
+      <summary>Files of interest</summary>
+
+      - https://github.com/swiftlang/swiftly/blob/main/Tools/build-swiftly-release/BuildSwiftlyRelease.swift
+    </details> 
 - [ ] Utilize Protocol Buffers
   - [ ] Patch [sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) (and support a rolling release?)
 - [ ] Optimize Swift toolchain(s)
