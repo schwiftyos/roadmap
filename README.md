@@ -68,7 +68,7 @@
 - [ ] Keyboard shortcuts
 - [ ] User-friendly UI
 - [ ] Continuity with other systems (sync user calendars, contacts, messages, etc)
-- [ ] Allow/enable multi-versioning of installed programs
+- [ ] Allow/enable multi-versioning of installed programs (custom package manager, similar to `pacman`) 
 - [ ] Decentralized services
 - [ ] Machine Learning security protections
 - [ ] Machine Learning features ("AI" / LLM)
