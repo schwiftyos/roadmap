@@ -4,6 +4,7 @@
 
 - [x] OS README
 - [x] Roadmap README
+- [x] [Evolution](https://github.com/schwiftyos/evolution) repository
 
 ## WIP
 
@@ -24,6 +25,7 @@
 - [ ] Patch Kernel to support more architectures
 - [ ] Patch Kernel to support native Swift code
 - [ ] Build and test for multiple architectures, and in parallel (similar to [Xcode Cloud](https://developer.apple.com/xcode-cloud/))
+- [ ] Allow/enable multi-versioning of installed programs (custom package manager, similar to [pacman](https://wiki.archlinux.org/title/Pacman)) 
      
 ### Optimizations
 
@@ -52,11 +54,6 @@
 - [ ] Optimize Swift toolchain(s)
 - [ ] Production-only dependencies (super minified, and stripped, binary size only suitable for production use)
 - [ ] Use stack-based array value types from Swift 6.1+ when available
-     
-### Community
-
-- [ ] Evolution repository
-- [ ] Custom IDE?
 
 ### Features
 
@@ -68,7 +65,7 @@
 - [ ] Keyboard shortcuts
 - [ ] User-friendly UI
 - [ ] Continuity with other systems (sync user calendars, contacts, messages, etc)
-- [ ] Allow/enable multi-versioning of installed programs (custom package manager, similar to `pacman`) 
 - [ ] Decentralized services
 - [ ] Machine Learning security protections
 - [ ] Machine Learning features ("AI" / LLM)
+- [ ] Custom IDE?
