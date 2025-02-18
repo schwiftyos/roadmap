@@ -12,8 +12,12 @@
 - [ ] Determine default File System
 - [ ] Determine default Kernel
 - [ ] Adopt Swift 6 language mode
-- [ ] Application/System Permission library (see [permissions](https://github.com/schwiftyos/permissions))
-- [ ] SwiftPM patch to enable dynamic linking on Linux (see [pitch](https://forums.swift.org/t/77605))
+- [ ] Application/System Permission library
+  - See [permissions](https://github.com/schwiftyos/permissions)
+- [ ] SwiftPM patch to enable dynamic linking on Linux
+  - See [pitch](https://forums.swift.org/t/77605)
+  - Probably need to implement custom solution
+    - Relates to having a central directory for dependencies and their build outputs (see [optimizations](#optimizations))
 - [ ] Better tooling for easier IoT, robotics, embedded workflows
   - [ ] See [Swift Consolidate Plugin](https://github.com/schwiftyos/swift-consolidate-plugin)
   - [ ] VS Code extensions?
