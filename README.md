@@ -14,10 +14,12 @@
 - [ ] Adopt Swift 6 language mode
 - [ ] Application/System Permission library
   - See [permissions](https://github.com/schwiftyos/permissions)
+- [ ] Single dependency build path
+  - See [proposal](https://github.com/schwiftyos/evolution/blob/main/proposals/0001-single-dependency-build-directory.md)
 - [ ] SwiftPM patch to enable dynamic linking on Linux
   - See [pitch](https://forums.swift.org/t/77605)
   - Probably need to implement custom solution
-    - Relates to [central build path](#central-build-path)
+    - Relates to [single dependency build path](https://github.com/schwiftyos/evolution/blob/main/proposals/0001-single-dependency-build-directory.md)
 - [ ] Better tooling for easier IoT, robotics, embedded workflows
   - [ ] See [Swift Consolidate Plugin](https://github.com/schwiftyos/swift-consolidate-plugin)
   - [ ] VS Code extensions?
@@ -32,36 +34,6 @@
 - [ ] Allow/enable multi-versioning of installed programs (custom package manager, similar to [pacman](https://wiki.archlinux.org/title/Pacman)) 
      
 ### Optimizations
-
-#### Central build-path
-
-Creating a central, system-wide directory for dependencies and their build outputs will not only dramatically improve compilation performance when developing Swift projects, but also reduces overall disk usage and opens the door for future features and improvements (like easier linking).
-
-!! ONGOING RESEARCH !! <sup>maybe a future direction to support other programming languages?</sup>
-
-##### Patches
-
-  - [ ] [SwiftLang](https://github.com/swiftlang/swift)
-    - <details>
-      <summary>Files of interest</summary>
-
-      - https://github.com/swiftlang/swift/blob/main/utils/build_swift/build_swift/constants.py
-    </details> 
-  - [ ] [SwiftPM](https://github.com/swiftlang/swift-package-manager)
-    - <details>
-      <summary>Files of interest</summary>
-
-      - https://github.com/swiftlang/swift-package-manager/blob/main/Sources/Workspace/Workspace%2BConfiguration.swift
-      - https://github.com/swiftlang/swift-package-manager/blob/main/Sources/_InternalTestSupport/SwiftPMProduct.swift
-      </details>
-  - [ ] [Swiftly](https://github.com/swiftlang/swiftly)
-    - <details>
-      <summary>Files of interest</summary>
-
-      - https://github.com/swiftlang/swiftly/blob/main/Tools/build-swiftly-release/BuildSwiftlyRelease.swift
-    </details> 
-
-#### Other
 
 - [ ] Utilize Protocol Buffers
   - [ ] Patch [sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) (and support a rolling release?)
