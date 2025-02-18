@@ -8,11 +8,11 @@
 
 ## WIP
 
-- [ ] Adopt Swift 6 language mode
 - [ ] Determine project and OS name
 - [ ] Determine default File System
 - [ ] Determine default Kernel
-- [ ] Application/System Permission library (see [permissions](https://github.com/schwiftyos/schwifty-permissions))
+- [ ] Adopt Swift 6 language mode
+- [ ] Application/System Permission library (see [permissions](https://github.com/schwiftyos/permissions))
 - [ ] SwiftPM patch to enable dynamic linking on Linux (see [pitch](https://forums.swift.org/t/77605))
 - [ ] Better tooling for easier IoT, robotics, embedded workflows
   - [ ] See [Swift Consolidate Plugin](https://github.com/schwiftyos/swift-consolidate-plugin)
