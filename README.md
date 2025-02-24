@@ -39,7 +39,7 @@
   - [ ] Patch [sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) (and support a rolling release?)
 - [ ] Optimize Swift toolchain(s)
 - [ ] Production-only dependencies (super minified, and stripped, binary size only suitable for production use)
-- [ ] Optimize compilation performance
+- [ ] Improve compilation performance
   - [ ] Swift Package Manager optimizations
   - [ ] Directly influenced by [single dependency build directory proposal](https://github.com/schwiftyos/evolution/blob/main/proposals/0001-single-dependency-build-directory.md)
 - [ ] Use stack-based array value types from Swift 6.1+ when available
