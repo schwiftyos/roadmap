@@ -48,13 +48,17 @@
 
 - [ ] Install script
 - [ ] Advanced System Search (similar to Spotlight on macOS)
-- [ ] App Store
 - [ ] Widgets
-- [ ] Secure payment system
 - [ ] Keyboard shortcuts
 - [ ] User-friendly UI
 - [ ] Continuity with other systems (sync user calendars, contacts, messages, etc)
 - [ ] Decentralized services
 - [ ] Machine Learning security protections
 - [ ] Machine Learning features ("AI" / LLM)
+
+### Integrations
+
 - [ ] Custom IDE?
+- [ ] SwiftCrossUI Backend
+- [ ] App Store
+- [ ] Secure payment system
