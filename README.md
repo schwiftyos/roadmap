@@ -13,7 +13,7 @@
 - [ ] Determine default Kernel
 - [ ] Adopt Swift 6 language mode
 - [ ] Application/System Permission library
-  - See [permissions](https://github.com/schwiftyos/permissions)
+  - See [permissions](https://github.com/schwiftyos/schwifty-permissions)
 - [ ] Single dependency build path
   - See [proposal](https://github.com/schwiftyos/evolution/blob/main/proposals/0001-single-dependency-build-directory.md)
 - [ ] SwiftPM patch to enable dynamic linking on Linux
