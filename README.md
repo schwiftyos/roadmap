@@ -17,7 +17,8 @@
 - [ ] Single dependency build path
   - See [proposal](https://github.com/schwiftyos/evolution/blob/main/proposals/0001-single-dependency-build-directory.md)
 - [ ] SwiftPM patch to enable dynamic linking on Linux
-  - See [pitch](https://forums.swift.org/t/77605)
+  - See related [pitch](https://forums.swift.org/t/77605) (Replaceable Library Plugins)
+  - See related [pitch](https://forums.swift.org/t/78619) (Binary Static Library Dependencies)
   - Probably need to implement custom solution
     - Relates to [single dependency build path](https://github.com/schwiftyos/evolution/blob/main/proposals/0001-single-dependency-build-directory.md)
 - [ ] Better tooling for easier IoT, robotics, embedded workflows
